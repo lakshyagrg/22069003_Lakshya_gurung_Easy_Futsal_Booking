@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django-specific files
+db.sqlite3
+*.sqlite3
+/media/
+*.log
+
+# Local settings
+.env
+*.env
+config/settings/local.py  # If you have different settings for local development
+
+# Static and media files
+/staticfiles/
+/media/
+
+# Node.js dependencies (if using frontend tools)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Pip dependency management
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+.cache
+
+# Migrations (optional: ignore if you want to force regeneration)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Celery beat scheduler file
+celerybeat-schedule
+
+# Gunicorn socket file (if using Gunicorn for deployment)
+gunicorn.sock
